@@ -197,6 +197,12 @@
             <artifactId>arquillian-protocol-servlet</artifactId>
             <scope>test</scope>               
         </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.5-redhat-1</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 	
     <build>
